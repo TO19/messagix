@@ -1,0 +1,23 @@
+{
+  "name": "Messagix",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --config ./webpack.config.js",
+    "start": "yarn run build && electron ./build/app.js"
+  },
+  "devDependencies": {
+    "electron": "^7.1.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.2",
+    "webpack-cli": "^3.3.10",
+    "@types/react": "^16.9.13",
+    "@types/react-dom": "^16.9.4",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.2",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
