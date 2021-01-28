@@ -8,7 +8,7 @@
     "start": "yarn run build && electron ./build/electron.js"
   },
   "devDependencies": {
-    "electron": "^7.1.2",
+    "electron": "^9.4.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "ts-loader": "^6.2.1",
